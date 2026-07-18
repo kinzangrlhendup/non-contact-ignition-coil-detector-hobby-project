@@ -86,6 +86,10 @@ manufacturing/ Gerber and drill outputs after final review
 - Use an insulated enclosure before vehicle testing.
 - This is a development prototype, not a certified automotive diagnostic instrument.
 
+## PS
+- This is just a hobby project and any comment or criticism is welcomed.
+
+
 ## Author
 
 Designed by **Kinzang R. Lhendup**  
