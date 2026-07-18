@@ -1,6 +1,6 @@
 # KiCad project
 
-Place the complete `Ignition_Coil_Detector` project folder here, including at minimum:
+This directory contains the native KiCad 10.0 project sources imported on 18 July 2026:
 
 ```text
 Ignition_Coil_Detector.kicad_pro
@@ -8,7 +8,11 @@ Ignition_Coil_Detector.kicad_sch
 Ignition_Coil_Detector.kicad_pcb
 ```
 
-Also include any custom symbol libraries, footprint libraries and bitmap-converted logo footprints needed to open the project without missing-library warnings.
+The project uses standard KiCad libraries, while the board file embeds its placed footprints and graphical content. Open `Ignition_Coil_Detector.kicad_pro` to load the complete project.
 
-Do not include KiCad backup folders, lock files or user-specific `.kicad_prl` files.
+KiCad lock files and the user-specific `.kicad_prl` file were intentionally excluded. They are session/local-interface state and are not portable design sources.
+
+The design was created with KiCad 10.0. Earlier KiCad releases may refuse to open or may not preserve the files correctly.
+
+See `../docs/source-validation.md` for structural validation details and hashes.
 
