@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use, refer to, reproduce or adapt this design, please cite it using the metadata below."
+title: "Non-Contact Ignition-Coil Firing Detector"
+type: software
+authors:
+  - family-names: "Lhendup"
+    given-names: "Kinzang R."
+version: 0.1.0
+date-released: 2026-07-18
+repository-code: "https://github.com/kinzangrlhendup/non-contact-ignition-coil-detector-hobby-project"
+url: "https://github.com/kinzangrlhendup/non-contact-ignition-coil-detector-hobby-project"
+abstract: >-
+  An educational non-contact automotive ignition-coil firing detector developed
+  using LTspice and KiCad. The project includes a PCB meander pickup, envelope
+  detector, adjustable LM393 comparator, alarm driver, simulation results and
+  a through-hole PCB design.
+keywords:
+  - automotive diagnostics
+  - ignition coil
+  - non-contact sensing
+  - LTspice
+  - KiCad
+  - PCB design
+
