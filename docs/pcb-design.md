@@ -41,6 +41,8 @@ The current automated environment does not include `kicad-cli`, so that earlier 
 - Check silkscreen-to-pad clearance and text readability in the 3D Viewer.
 - Refill copper zones and rerun ERC/DRC.
 - Generate and inspect Gerber and drill files in an independent viewer.
+- Before fabrication or public product distribution, add `Licensed under CERN-OHL-S v2` and the repository Source Location to a visible part of the product, packaging or accompanying documentation, as required by the project Notice and applicable licence terms.
+
 
 ## Manufacturing defaults proposed for the first prototype
 
