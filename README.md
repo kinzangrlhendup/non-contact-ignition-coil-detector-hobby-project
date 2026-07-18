@@ -95,8 +95,6 @@ manufacturing/ Gerber and drill outputs after final review
 ## Author
 
 Designed by **Kinzang R. Lhendup**  
-First fabrication and PCB design project — July 2026  
-Made in Bhutan
 
 ## Citation and reuse
 
