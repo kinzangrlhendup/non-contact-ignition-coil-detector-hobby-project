@@ -1,0 +1,30 @@
+Reference,Quantity,Value/Part,Function,Status/Note
+J1,1,9 V battery connector,Power input,Verify footprint
+SW1,1,Normally-open momentary pushbutton,Hold-to-test power control,Verify selected 6 mm footprint
+D1,1,1N5819,Reverse-polarity protection,KiCad design
+U1,1,L7805,5 V regulator,KiCad design differs from LTspice LT1117-5
+C1,1,330 nF,Regulator input bypass,Verify against native KiCad schematic
+C2,1,10 uF,Input bulk capacitance,Verify polarity and footprint
+C3,1,10 uF,Output bulk capacitance,Verify polarity and footprint
+C4-C5,2,100 nF,Supply decoupling,Verify references in KiCad
+J2,1,Pickup connector,PCB meander/external pickup connection,Verify footprint
+TP1,1,Test point,Raw pickup monitoring,KiCad design
+R1,1,10 kOhm,Input current limiting,KiCad design
+R2,1,1 MOhm,Raw-input bleed,Final value requires sensitivity validation
+D2,1,1N4148,Input rectifier,KiCad design
+D3,1,BZX55C3V3,3.3 V input clamp,Verify axial footprint and polarity
+C6,1,100 nF,Envelope storage,KiCad design
+R3,1,470 kOhm,Envelope discharge,KiCad design
+U2,1,LM393,Dual comparator,Verify DIP pin mapping and unused section
+R4,1,22 kOhm,Threshold-divider upper resistor,KiCad design
+RV1,1,10 kOhm,Sensitivity adjustment,Verify pin order and footprint
+R5,1,2.2 kOhm,Threshold-divider lower resistor,KiCad design
+R6,1,1.5 kOhm,Comparator output pull-up,KiCad design
+R7,1,4.7 MOhm,Comparator hysteresis feedback,KiCad design
+R8,1,4.7 kOhm,Transistor base resistor,KiCad design
+Q1,1,PN2222A,Alarm driver,Verify E-B-C footprint pinout
+R10,1,680 Ohm,LED current limiting,KiCad design
+D5,1,LED,Firing indicator,Choose colour and verify polarity
+BZ1,1,5 V active buzzer,Audible indicator,Verify current and polarity
+D4,1,1N5819,Buzzer transient suppression,Verify need and polarity
+
