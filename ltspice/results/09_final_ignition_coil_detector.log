@@ -1,0 +1,22 @@
+LTspice 26.0.2 for Windows
+Circuit: %USERPROFILE%\Documents\LTspice\09_final_ignition_coil_detector.net
+Start Time: Sat Jul 18 12:07:33 2026
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Source stepping succeeded in finding the operating point.
+
+Total elapsed time: 11.508 seconds.
+
+Files loaded:
+%USERPROFILE%\Documents\LTspice\09_final_ignition_coil_detector.net
+%USERPROFILE%\AppData\Local\LTspice\lib\cmp\standard.dio
+%USERPROFILE%\AppData\Local\LTspice\lib\cmp\standard.bjt
+%USERPROFILE%\Documents\LTspice\lm393.lib
+%USERPROFILE%\AppData\Local\LTspice\lib\sub\LT1117.lib
