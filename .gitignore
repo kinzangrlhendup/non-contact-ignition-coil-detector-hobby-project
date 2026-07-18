@@ -1,0 +1,26 @@
+# LTspice generated files
+*.raw
+*.op.raw
+*.net
+*.fft
+*.plt
+*.log
+!ltspice/results/*.log
+
+# KiCad temporary and user-specific files
+*-backups/
+*.bak
+*.bck
+*.lck
+~*.lck
+*.kicad_prl
+fp-info-cache
+
+# Manufacturing archives generated only for releases
+*.gbrjob
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
