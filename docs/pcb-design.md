@@ -10,6 +10,8 @@ The current automated environment does not include `kicad-cli`, so that earlier 
 
 ![PCB layout](../images/pcb-layout.png)
 
+![KiCad 3D board view](../images/kicad-3d-board.png)
+
 ## Documented design decisions
 
 - Two-layer PCB with a front-copper meander pickup.

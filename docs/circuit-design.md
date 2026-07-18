@@ -4,6 +4,8 @@
 
 The circuit detects the transient electric field associated with ignition-coil firing and gives an audible and visual indication. It is a firing-presence detector rather than a calibrated secondary-voltage or coil-energy tester.
 
+![LTspice simulation schematic](../images/ltspice-schematic.png)
+
 ## 1. Pickup conductor
 
 The KiCad PCB uses a snake/meander conductor on the front copper layer. J2 pin 1 connects the pickup net to the input conditioning circuit, and TP1 provides a test point. Copper-zone clearance is maintained around the complete meander, TP1 and feed trace to reduce unwanted capacitive loading.
@@ -65,4 +67,3 @@ The 680 Ω LED resistor gives a nominal current of roughly 4–5 mA, depending o
 The physical design uses a 9 V battery, normally-open momentary TEST pushbutton, reverse-polarity protection diode and L7805 regulator with bulk and 100 nF decoupling capacitors.
 
 The archived LTspice baseline instead uses an LT1117-5. Its two supply capacitors are entered as `10m`, which LTspice interprets as 10 mF. They must be changed to the intended value (likely `10u`) when synchronizing the simulation with the KiCad design.
-
