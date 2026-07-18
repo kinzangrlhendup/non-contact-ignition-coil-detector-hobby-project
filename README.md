@@ -15,9 +15,11 @@ The project is intended as a **firing-presence indicator** for coil-on-plug igni
 | LTspice functional simulation | Completed; transient run verified on 18 July 2026 |
 | KiCad schematic | Native KiCad 10.0 source imported and structurally checked; user-run ERC previously reported clean |
 | PCB layout | Native KiCad 10.0 source imported and structurally checked; user-run DRC previously reported clean |
-| Gerber generation | Not started |
+| Gerber generation | Completed and visually reviewed on 18 July 2026 |
 | Physical prototype | Not built or validated |
 | Vehicle testing | Not performed |
+
+Manufacturer-ready files are available in [`manufacturing/gerbers/`](manufacturing/gerbers/).
 
 ## Functional chain
 
@@ -65,7 +67,7 @@ The current LTspice and KiCad designs are not exact copies:
 4. LTspice capacitor values `10m` mean 10 mF (10,000 µF), whereas the KiCad design uses practical 10 µF capacitors.
 5. The TI `lm393.lib` model and matching custom `LM2903B.asy` symbol are included beside the `.asc` file. Their five-pin order has been checked for consistency.
 
-These differences must be resolved in a later synchronized revision before PCB fabrication.
+These differences mean that the LTspice results should not be treated as complete physical validation of the fabrication files.
 
 The comparator dependencies are now repository-contained. Before making the repository public, review the redistribution terms for the Texas Instruments model described in [third-party notices](THIRD_PARTY_NOTICES.md).
 
@@ -77,7 +79,7 @@ kicad/         Native KiCad 10.0 project, schematic and PCB files
 docs/          Design, simulation, PCB and test documentation
 images/        Schematics, PCB view and simulation plots
 bom/           Preliminary bill of materials
-manufacturing/ Gerber and drill outputs after final review
+manufacturing/ Reviewed Gerber and drill fabrication outputs
 ```
 
 ## Safety
