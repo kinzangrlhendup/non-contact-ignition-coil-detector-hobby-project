@@ -4,20 +4,31 @@
 
 `09_final_ignition_coil_detector.asc` is the unchanged simulation file supplied after the successful rerun on 18 July 2026.
 
-## Missing local dependencies
+## Comparator dependencies
 
-The simulator log shows that the design loads:
+The following dependency files are included beside the schematic:
 
 ```text
-C:\Users\kinzangrd_l\Documents\LTspice\lm393.lib
+LM2903B.asy
+lm393.lib
 ```
 
-The schematic also references a custom `LM2903B` symbol. For reproducibility, add the following files to this directory in a future commit:
+The symbol contains:
 
-- `models/lm393.lib`
-- `symbols/LM2903B.asy`
+```text
+SYMATTR Value LM2903B
+SYMATTR ModelFile lm393.lib
+```
 
-Then update the symbol/model reference so it uses a repository-relative dependency rather than a user-specific Windows path.
+Its Spice pin order is `IN+`, `IN-`, `Vcc`, `GND`, `OUT`, matching the model declaration:
+
+```text
+.SUBCKT LM2903B IN+ IN- Vcc GND OUT
+```
+
+Keeping the symbol, model and `.asc` file together preserves the existing relative reference and avoids the original user-specific Windows dependency path.
+
+The model identifies itself as Texas Instruments LM2903B PSpice model version 1.0, dated 30 September 2021. Retain its complete copyright and disclaimer header. Review [third-party notices](../THIRD_PARTY_NOTICES.md) before changing repository visibility or redistributing the model.
 
 Generated `.raw`, `.op.raw` and `.net` files are intentionally excluded from version control because they can be regenerated. One baseline log is retained under `results/`.
 
