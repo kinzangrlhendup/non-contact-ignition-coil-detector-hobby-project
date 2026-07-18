@@ -11,8 +11,8 @@ The project is intended as a **firing-presence indicator** for coil-on-plug igni
 | Stage | Status |
 | --- | --- |
 | LTspice functional simulation | Completed; transient run verified on 18 July 2026 |
-| KiCad schematic | Completed visually; source files awaiting repository import and review |
-| PCB layout | Completed visually; DRC previously reported with no violations; source files awaiting import |
+| KiCad schematic | Native KiCad 10.0 source imported and structurally checked; user-run ERC previously reported clean |
+| PCB layout | Native KiCad 10.0 source imported and structurally checked; user-run DRC previously reported clean |
 | Gerber generation | Not started |
 | Physical prototype | Not built or validated |
 | Vehicle testing | Not performed |
@@ -69,7 +69,7 @@ These differences must be resolved in a later synchronized revision before PCB f
 
 ```text
 ltspice/       LTspice schematic and retained baseline log
-kicad/         KiCad project files (pending upload)
+kicad/         Native KiCad 10.0 project, schematic and PCB files
 docs/          Design, simulation, PCB and test documentation
 images/        Schematics, PCB view and simulation plots
 bom/           Preliminary bill of materials
@@ -89,4 +89,3 @@ manufacturing/ Gerber and drill outputs after final review
 Designed by **Kinzang R. Lhendup**  
 First fabrication and PCB design project — July 2026  
 Made in Bhutan
-
