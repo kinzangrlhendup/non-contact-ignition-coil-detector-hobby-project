@@ -106,4 +106,4 @@ If you refer to, reproduce or adapt this project in academic work, technical doc
 
 GitHub can also generate citation formats from the repository's [`CITATION.cff`](CITATION.cff) file.
 
-Copyright © 2026 Kinzang R. Lhendup. All rights reserved. No general reuse or manufacturing licence has yet been granted; see [copyright and reuse](COPYRIGHT.md). Third-party materials remain subject to their respective terms.
+This is open hardware licensed under **CERN-OHL-S-2.0**. You may study, modify, share and build it under that licence. Please retain the author attribution and cite this repository using `CITATION.cff`. The Texas Instruments simulation model remains under its own terms.
