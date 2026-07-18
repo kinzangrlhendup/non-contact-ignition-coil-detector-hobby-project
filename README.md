@@ -6,6 +6,8 @@ The project is intended as a **firing-presence indicator** for coil-on-plug igni
 
 ![Current PCB layout](images/pcb-layout.png)
 
+[▶ Watch the 15.8-second KiCad 3D board preview](media/kicad-3d-board-preview.mp4)
+
 ## Project status
 
 | Stage | Status |
@@ -87,11 +89,21 @@ manufacturing/ Gerber and drill outputs after final review
 - This is a development prototype, not a certified automotive diagnostic instrument.
 
 ## PS
-- This is just a hobby project and any comment or criticism is welcomed.
 
+- This is just a hobby project and any comment or criticism is welcomed.
 
 ## Author
 
 Designed by **Kinzang R. Lhendup**  
 First fabrication and PCB design project — July 2026  
 Made in Bhutan
+
+## Citation and reuse
+
+If you refer to, reproduce or adapt this project in academic work, technical documentation, software, hardware or online content, please cite:
+
+> Lhendup, K. R. (2026). *Non-Contact Ignition-Coil Firing Detector* (Version 0.1.0) [Hardware design and simulation project]. GitHub. https://github.com/kinzangrlhendup/non-contact-ignition-coil-detector-hobby-project
+
+GitHub can also generate citation formats from the repository's [`CITATION.cff`](CITATION.cff) file.
+
+Copyright © 2026 Kinzang R. Lhendup. All rights reserved. No general reuse or manufacturing licence has yet been granted; see [copyright and reuse](COPYRIGHT.md). Third-party materials remain subject to their respective terms.
