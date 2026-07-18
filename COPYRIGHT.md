@@ -1,16 +1,9 @@
-# Copyright and reuse
+# Copyright and licence
 
-Copyright © 2026 Kinzang R. Lhendup. All rights reserved.
+Copyright © 2026 Kinzang R. Lhendup.
 
-The original circuit documentation, calculations, KiCad design, PCB layout, graphics, images and video in this repository are the work of Kinzang R. Lhendup unless a file states otherwise.
+The original hardware design and project source are licensed under **CERN-OHL-S-2.0**. You may use, modify, share and build the design under the terms in `LICENSE`.
 
-## Citation
+Please retain the author attribution and cite the repository using `CITATION.cff`.
 
-If you discuss, evaluate or refer to this work, cite the repository using `CITATION.cff` or the citation provided in the main README.
-
-## Reuse status
-
-No general licence to copy, modify, redistribute, sell or manufacture this design has been granted at this stage. Public visibility alone does not grant those permissions. Contact the author before reusing the original work beyond ordinary quotation, linking or other use permitted by applicable law.
-
-If a reuse licence is added later, its terms will take priority for the files it explicitly covers. Third-party materials, including the Texas Instruments simulation model, remain governed by their own terms and notices.
-
+Third-party files, including `ltspice/lm393.lib`, remain under their original terms.
