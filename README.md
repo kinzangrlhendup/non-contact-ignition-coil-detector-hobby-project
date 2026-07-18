@@ -61,9 +61,11 @@ The current LTspice and KiCad designs are not exact copies:
 2. KiCad includes a raw-input bleed resistor; the LTspice baseline does not.
 3. LTspice uses an LT1117-5; KiCad uses an L7805.
 4. LTspice capacitor values `10m` mean 10 mF (10,000 µF), whereas the KiCad design uses practical 10 µF capacitors.
-5. The simulation relies on a local `lm393.lib` and custom `LM2903B` symbol that still need to be added for full portability.
+5. The TI `lm393.lib` model and matching custom `LM2903B.asy` symbol are included beside the `.asc` file. Their five-pin order has been checked for consistency.
 
 These differences must be resolved in a later synchronized revision before PCB fabrication.
+
+The comparator dependencies are now repository-contained. Before making the repository public, review the redistribution terms for the Texas Instruments model described in [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Repository layout
 
