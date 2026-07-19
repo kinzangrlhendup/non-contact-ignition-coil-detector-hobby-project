@@ -2,9 +2,8 @@
 
 ## Current status
 
-The native KiCad 10.0 `.kicad_pro`, `.kicad_sch` and `.kicad_pcb` files were imported into the repository on 18 July 2026. Structural checks confirmed valid project JSON and balanced schematic/PCB S-expressions. The user previously reported that the KiCad electrical-rules and design-rules checks completed without errors or violations.
-
-The current automated environment does not include `kicad-cli`, so that earlier clean ERC/DRC result has not been independently rerun here. See [KiCad source validation](source-validation.md).
+The native KiCad 10.0 `.kicad_pro`, `.kicad_sch` and `.kicad_pcb` files are imported into the repository. 
+See [KiCad source validation](source-validation.md).
 
 ![KiCad schematic](../images/kicad-schematic.png)
 
