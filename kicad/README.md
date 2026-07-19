@@ -14,5 +14,4 @@ KiCad lock files and the user-specific `.kicad_prl` file were intentionally excl
 
 The design was created with KiCad 10.0. Earlier KiCad releases may refuse to open or may not preserve the files correctly.
 
-See `../docs/source-validation.md` for structural validation details and hashes.
 
