@@ -73,7 +73,3 @@ The retained log is available at `ltspice/results/09_final_ignition_coil_detecto
 4. Sweep input amplitude, pulse width, repetition rate and threshold-potentiometer position.
 5. Run sensitivity and noise-rejection cases.
 6. Retain the original baseline file unchanged and save the synchronized version under a new revision filename.
-
-## Reproducibility dependencies
-
-The repository now includes the exact `LM2903B.asy` symbol and `lm393.lib` model used by the baseline simulation. Their five-pin order was checked against the `.SUBCKT` declaration and found consistent. The uploaded files were preserved byte-for-byte.
